@@ -1,6 +1,6 @@
-# Hello World — Spring Boot + Frontend
+# Hello World — Spring Boot 
 
-A minimal example of a frontend communicating with a Spring Boot backend. This is a **separate project** from the Event Registration Lab 6.
+A minimal example of a frontend communicating g Boowith a Sprint backend.
 
 ## Technologies
 
@@ -59,17 +59,3 @@ src/main/resources/
         app.js                 # Fetches JSON from backend
 ```
 
-## Upload to GitHub
-
-Create an empty repository on GitHub, then upload **the contents of this folder** (not the ZIP itself). You can use GitHub's **Add file > Upload files** feature, or run:
-
-```bash
-git init
-git add .
-git commit -m "Add Spring Boot Hello World project"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY.git
-git push -u origin main
-```
-
-Replace `YOUR-USERNAME` and `YOUR-REPOSITORY` with your actual GitHub values. Do not upload `build/` or `.gradle/` directories.
